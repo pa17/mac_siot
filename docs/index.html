@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav class="navbar navbar-default" role="navigation">
-    <div class="container">
+    <div class="container content">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -18,81 +18,79 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#featured">Smart <span class="subhead">Window Guard</span></a>
+        <a class="navbar-brand" href="#featured">Smart <span class="subhead">Window Guard</span>
+        </a>
       </div><!-- navbar-header -->
       <div class="collapse navbar-collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#dashboard">Dashboard</a></li>
-          <li><a href="#alert">Alert</a></li>
           <li><a href="#settings">Settings</a></li>
+          <li><a>Daterange: 30-11-18 to 30-12-18</a></li>
         </ul>
       </div><!-- collapse navbar-collapse -->
     </div><!-- container -->
   </nav>
 
-<div class="content container"> 
-    <div id = "carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
 
-        <!-- Wrapper for slides -->
+  <section class='block'>
+    <div id = "carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false" style="margin-top: -20px">
         <div class="carousel-inner" role="listbox">
+
+          <!-- ITEM -->
         	<div class="item active" style="padding-top: 50px">
-                <iframe width="1150" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~pa17/14.embed"></iframe>
+            <iframe width="1150" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~pa17/14.embed"></iframe>
 
-                <div class="carousel-caption">
-  					<h2>Who's been walking around?</h2>
-
-                    <p>This graph shows the amount of people that walk by your house every hour over the last month.
-                    </p>
-                </div>
+            <div class="carousel-caption">
+    					<h2>How many people are passing by?</h2>
+              <p>This graph shows the amount of people that walk by your house every hour over the last month. </p>
             </div>
-            <div class="item" style="padding-top: 50px">
-                <iframe width="1150" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~pa17/6.embed">
-                </iframe>
+          </div>
 
-                <div class="carousel-caption">
-					<h2 >How has the weather been?</h2>
-  					<p>The following graph shows the weather that occured outside your window and how many people walked by during different periods.</p>
-  				</div>
+          <!-- ITEM -->
+          <div class="item" style="padding-top: 100px">
+            <div class='col-md-6'>
+              <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~pa17/21.embed"></iframe>
             </div>
-            <div class="item" style="padding-top: 100px; padding-left: 100px">
-                <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~pa17/16.embed">
-                </iframe>
-
-                <div class="carousel-caption">   	
-					<h2>Who presented a threat?</h2>
-					<p>The following graph shows heat sources that were deemed close to your window.</p>
-				</div>
-            </div>
-            <div class="item" style="padding-top: 100px; padding-left: 100px">
-                <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~pa17/18.embed">
-                </iframe>
-                <div class="carousel-caption">
-					<h2>Who presented a threat?</h2>
-					<p>The following graph shows heat sources that were deemed close to your window.</p>
-                </div>
+            
+            <div class='col-md-6'>
+              <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~pa17/18.embed"></iframe>
             </div>
 
-            <div class="item">
-                <img  width="1150" height="720" src="images/1.png" alt="img01" class="img-responsive" style="padding-top: 100px"/>
-                <div class="carousel-caption">
-					<h2>Who else was passing by?</h2>
-					<p>A selection of observations classed as people that passed the IR camera.</p>
-                </div>
-            </div>
+            <div class="carousel-caption">   	
+					    <h2>Who presented a threat?</h2>
+					    <p>The following graphs show two suspicious heat sources that were spotted close to your window.</p>
+				    </div>
+          </div>
 
-            <div class="item" style="padding-top: 150px">
-                <iframe width="1150" height="720" src="https://www.youtube.com/embed/SndlBXxSB4E?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div class="carousel-caption">
-					<h2>How does it look when someone passes by?</h2>
-					<p>Here you can see a video stream of someone passing by and walking back immediately.</p>
-                </div>
+          <!-- ITEM -->
+          <div class="item">
+            <img  width="1150" height="720" src="images/1.png" alt="img01" class="center" style="padding-top: 100px; display: block; margin-left: auto; margin-right: auto;"/>
+            
+            <div class="carousel-caption">
+					    <h2>Who else was passing by?</h2>
+					    <p>A selection of observations classed as people that passed the IR camera.</p>
             </div>
+          </div>
+
+          <!-- ITEM -->
+          <div class="item" style="padding-top: 50px">
+            <iframe width="1150" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~pa17/23.embed"></iframe>
+
+            <div class="carousel-caption">
+              <h2 >How has the weather been?</h2>
+              <p>This graph shows the weather that occured outside your window and how many people walked through it during the daterange.</p>
+            </div>
+          </div>
+
+          <!-- ITEM -->
+          <div class="item" style="padding-top: 150px">
+            <iframe width="1150" height="720" src="https://www.youtube.com/embed/SndlBXxSB4E?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <div class="carousel-caption">
+					    <h2>How does it look when someone passes by?</h2>
+					    <p>Here you can see a video stream of someone passing by and walking back immediately.</p>
+            </div>
+          </div>
 
         </div>
 
@@ -106,10 +104,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
-
-</div><!-- content container -->
-
+  </section>
 
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

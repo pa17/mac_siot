@@ -7,4 +7,21 @@
     text-align: center;
     bottom: auto;
     color: #303030;
+    text-shadow: none;
+}
+
+.carousel .item {
+    width: 100%; /*slider width*/
+}
+.carousel .item iframe {
+    width: 100%; /*img width*/
+   	max-height: 600px; /*slider height*/
+
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
 }
