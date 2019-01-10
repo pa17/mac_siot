@@ -1,6 +1,6 @@
 # mac_siot
 
-This repository contains the code for data analysis and visualisation used for my coursework for the DE4-SIOT Sensing & IoT module. It contains a jupyter notebook to analyse the data (available here: https://www.dropbox.com/sh/lz3zccqljt8zucw/AABIHGCPteGMRjTZNT5zjSeBa?dl=0). Furthermore, the /docs folder of this repository is hosted as a GitHub page, showing a data dashboard using plots from the analysis. A video explaning the projects is available on https://youtu.be/ORkOIJEHw0g.
+This repository contains the code for data analysis and visualisation used for my coursework for the DE4-SIOT Sensing & IoT module. It contains a jupyter notebook to analyse the data (available here: https://www.dropbox.com/sh/lz3zccqljt8zucw/AABIHGCPteGMRjTZNT5zjSeBa?dl=0). Furthermore, the /docs folder of this repository is hosted as a GitHub page, showing a data dashboard using plots from the analysis (https://pa17.github.io/mac_siot/). A video explaning the projects is available on https://youtu.be/ORkOIJEHw0g.
 
 The corresponding data collection repository is available on https://github.com/pa17/hack_pi_siot
 
